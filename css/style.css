@@ -7,6 +7,8 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	background-color: yellow;
+
 }
 
 section{
@@ -18,16 +20,18 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: orange;
 	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+ 
 }
 
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: wheat;
+	background-color: lightBlue;
+
 }
 
 nav a, nav h3{
@@ -37,11 +41,31 @@ nav a, nav h3{
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+
+
+	
+	 
 }
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
+   
+
 }
+
+
+
+footer{
+background-color: lightBlue;
+overflow:hidden;
+color:black;
+font-size: 110%;
+
+}
+
+
+
+
 
 
 
